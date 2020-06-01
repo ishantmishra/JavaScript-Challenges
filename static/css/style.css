@@ -1,4 +1,4 @@
-.container-1, .container-2 {
+.container-1, .container-2, .container-3 {
     border: solid black;
     width: 75%;
     margin: 0 auto;
@@ -6,7 +6,7 @@
 }
 
 
-.flex-box-container-1, .flex-box-container-2 {
+.flex-box-container-1, .flex-box-container-2, .flex-box-rps{
     display: flex;
     border: 1px solid black;
     padding: 10px;
@@ -23,10 +23,14 @@
     align-items: center;
 }
 
-
-
 .flex-box-container-2 img {
     border: 1px solid black;
     margin: 10px;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
 }
+
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px rgba(8, 212, 25, 0.842);
+}
+
+/* style .flex-box-rps divs */
