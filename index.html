@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="static/css/style.css">
     <title>JavaScript</title>
-    <script src="static/js/script.js"></script> 
+    
 </head>
 <body>
 
@@ -35,7 +35,7 @@
     <div class="container-2">
         <h2>Challenge 2: Cat Generator</h2>
         <button class="btn btn-success" id="cat-generator" onclick="generateCat()">Generate Cat</button>
-
+        <button class="btn btn-success" id="create-again" onclick="createAgain()">Create Again</button>
 
         <div class="flex-box-container-2" id="flex-cat-gen">
         </div>
@@ -52,8 +52,53 @@
         </div>
 
     </div>
+
+    <div class="container-5">
+        <h2>Challenge 5: Blackjack</h2>
+        <ul class="list-group">
+            <li class="list-group-item">Click <strong>Hit</strong> and Play all your cards</li>
+            <li class="list-group-item">Click <strong>Stand</strong> for the bot to play it's cards</li>
+        </ul>
+        <h3><span id="blackjack-result">Let's Play</span></h3>
+
+        <div class="flex-blackjack-row-1">
+            <div id="your-box">
+                <h2>You: <span id="your-blackjack-result">0</span></h2>
+            </div>
+
+            <div id="dealer-box">
+                <h2>Dealer: <span id="dealer-blackjack-result">0</span></h2>
+
+            </div>
+        </div>
+
+        <div class="flex-blackjack-row-2">
+            <div>
+                <button class="btn-lg btn btn-primary mr-3 " id="blackjack-hit-button">Hit</button>
+                <button class="btn-lg btn btn-warning mr-3" id="blackjack-stand-button">Stand</button>
+                <button class="btn-lg btn btn-danger " id="blackjack-deal-button">Deal</button>
+            </div>
+
+        </div>
+
+        <div class="flex-blackjack-row-3">
+            <table>
+                <tr>
+                    <th>Wins</th>
+                    <th>Losses</th>
+                    <th>Draws</th>
+                </tr>
+
+                <tr>
+                    <td><span id="wins">0</span></td>
+                    <td><span id="losses">0</span></td>
+                    <td><span id="tied">0</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
        
        
-    
+    <script src="static/js/script.js"></script> 
 </body>
 </html>

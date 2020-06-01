@@ -1,4 +1,4 @@
-.container-1, .container-2, .container-3 {
+.container-1, .container-2, .container-3, .container-5 {
     border: solid black;
     width: 75%;
     margin: 0 auto;
@@ -6,15 +6,50 @@
 }
 
 
-.flex-box-container-1, .flex-box-container-2, .flex-box-rps{
-    display: flex;
-    border: 1px solid black;
-    padding: 10px;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
+.flex-box-container-1,.flex-box-container-2,.flex-box-rps,.flex-box-pick-color,.flex-blackjack-row-1,
+    .flex-blackjack-row-2, .flex-blackjack-row-3 {
+   border: 1px solid black; 
+   display: flex;
+   padding: 10px;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-around;
 }
 
+
+
+.flex-blackjack-row-1, .flex-blackjack-row-2 {
+    background: url('https://colourlex.com/wp-content/uploads/2015/01/Emerald_green_painted_swatch_Muntwyler-225-s.jpg');
+    color: white;
+}
+
+.flex-blackjack-row-1 div {
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    height: 350px;
+}
+
+.flex-blackjack-row-1 img {
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 button {
+    border: solid black;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 div {
+    border: solid black;
+    padding: 10px;
+}
+
+table, th, td {
+    padding: 5px;
+    border: 1px solid black;
+}
 
 .flex-box-container-1 div {
     display: flex;
@@ -33,4 +68,3 @@
     box-shadow: 0px 10px 50px rgba(8, 212, 25, 0.842);
 }
 
-/* style .flex-box-rps divs */
